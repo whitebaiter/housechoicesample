@@ -166,7 +166,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         
         const sortedMakers = Object.keys(scores).sort((a, b) => scores[b] - scores[a]);
-        showResults(sortedMakers.slice(0, 3));
+        showResults(sortedMakers.slice(0, 5));
     }
 
     // 結果を表示
