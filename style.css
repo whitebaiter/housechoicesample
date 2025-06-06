@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700;800&display=swap');
+
+body {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    background-color: #f0f7ff;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 30px 40px;
+    text-align: center;
+}
+
+header h1 {
+    color: #005a9e;
+    font-weight: 800;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+
+header h1 span {
+    color: #ff6b6b;
+}
+
+header p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-top: 5px;
+}
+
+#progress-bar-container {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+#progress-bar {
+    width: 0%;
+    height: 10px;
+    background-color: #4caf50;
+    border-radius: 10px;
+    transition: width 0.3s ease-in-out;
+}
+
+.question-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 30px 0;
+    color: #003366;
+}
+
+.options-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.option-btn {
+    background-color: #ffffff;
+    color: #005a9e;
+    border: 2px solid #005a9e;
+    border-radius: 12px;
+    padding: 20px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    width: 100%;
+}
+
+.option-btn:hover {
+    background-color: #005a9e;
+    color: #ffffff;
+    transform: translateY(-3px);
+}
+
+#start-btn {
+    background-color: #ff6b6b;
+    color: white;
+    font-size: 1.5rem;
+    padding: 20px 40px;
+    border: none;
+}
+
+.result-card {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.result-card.rank-1 {
+    border-left: 10px solid #ffc107;
+}
+
+.result-card h2 {
+    color: #003366;
+    margin-top: 0;
+    font-size: 1.8rem;
+}
+
+.result-card h2 span {
+    background-color: #ffc107;
+    color: #333;
+    padding: 2px 8px;
+    border-radius: 5px;
+    font-size: 1rem;
+    vertical-align: middle;
+}
+
+.reason {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 15px 0;
+    padding-left: 15px;
+    border-left: 3px solid #007bff;
+    background-color: #e7f3ff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.result-link {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+    margin-top: 10px;
+    transition: background-color 0.2s;
+}
+
+.result-link:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #aaa;
+}
